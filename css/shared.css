@@ -31,7 +31,7 @@
   --font-hindi:   'Noto Sans Devanagari', sans-serif;
 
   /* Spacing */
-  --navbar-h:     76px;
+  --navbar-h:     88px;
   --section-v:    clamp(70px, 9vw, 130px);
   --container:    1300px;
   --gutter:       clamp(20px, 4.5vw, 64px);
@@ -177,7 +177,7 @@ button {
 .navbar.scrolled {
   background: rgba(253, 250, 244, 0.96);
   box-shadow: var(--shadow-nav);
-  height: 70px;
+  height: 74px;
 }
 
 .nav-inner {
@@ -217,10 +217,15 @@ button {
 }
 
 .nav-logo img {
-  height: clamp(38px, 4.8vw, 46px);
+  height: clamp(52px, 6.2vw, 68px);
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.08));
+  transition: height var(--transition);
+}
+
+.navbar.scrolled .nav-logo img {
+  height: clamp(44px, 5.2vw, 54px);
 }
 
 /* Nav Right */
