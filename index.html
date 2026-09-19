@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keshuji Sweets — Handcrafted Indian Mithai Since 1965</title>
+  <meta name="description" content="Keshuji Sweets — India's most beloved handcrafted mithai, made with pure desi ghee and tradition since 1965. Jaipur, Rajasthan." />
+  <link rel="icon" type="image/png" href="assets/KeshuJI-Logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/shared.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <!-- ===== SWEET IS LOADING CHASHNI PRELOADER ===== -->
+  <aside id="sweet-loader" aria-label="Loading Keshuji Sweets">
+    <div class="chashni-aura" aria-hidden="true"></div>
+    <div class="chashni-stage">
+      
+      <!-- Chashni Dropper -->
+      <div class="chashni-dropper" aria-hidden="true">
+        <div class="chashni-droplet"></div>
+      </div>
+
+      <!-- Keshuji Logo with Rising Chashni Liquid Fill -->
+      <div class="chashni-logo-box" aria-hidden="true">
+        <!-- Base Faint Logo Outline -->
+        <img src="assets/KeshuJI-Logo.png" alt="Keshuji Sweets Logo Outline" class="chashni-logo-base" />
+        
+        <!-- Rising Chashni Liquid Level -->
+        <div class="chashni-fill-level" id="chashni-fill-level">
+          <!-- Filled Saffron Logo -->
+          <img src="assets/KeshuJI-Logo.png" alt="Keshuji Sweets Filled Logo" class="chashni-logo-filled" />
+          
+          <!-- Liquid Sheen Overlay -->
+          <div class="chashni-syrup-sheen"></div>
+
+          <!-- Waving Liquid Meniscus Surface -->
+          <div class="chashni-wave-wrap">
+            <svg class="chashni-wave-svg" viewBox="0 0 240 12" preserveAspectRatio="none">
+              <path d="M0,6 C30,1 60,11 90,6 C120,1 150,11 180,6 C210,1 240,11 270,6 L270,12 L0,12 Z" fill="#F5B800" opacity="0.9"/>
+              <path d="M0,7 C30,2 60,12 90,7 C120,2 150,12 180,7 C210,2 240,12 270,7 L270,12 L0,12 Z" fill="#C97D00" opacity="0.55"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading Typography -->
+      <p class="chashni-eyebrow">Est. 1965 &bull; Rajasthan</p>
+      <h1 class="chashni-title" aria-label="Sweet is loading">
+        <span>S</span><span>W</span><span>E</span><span>E</span><span>T</span>
+        <span class="chashni-space">&nbsp;</span>
+        <span>I</span><span>S</span>
+        <span class="chashni-space">&nbsp;</span>
+        <span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span>
+      </h1>
+      <p class="chashni-subtext" id="chashni-subtext">Simmering pure desi ghee &amp; saffron syrup...</p>
+
+      <!-- Progress Track -->
+      <div class="chashni-progress-wrap">
+        <div class="chashni-bar-track">
+          <div class="chashni-bar-fill" id="chashni-bar-fill"></div>
+        </div>
+        <span class="chashni-percent" id="chashni-percent">0%</span>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- ===== ULTRA-PLEASING NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <nav class="nav-left">
+        <a href="./" class="nav-link active">Home</a>
+        <a href="story/" class="nav-link">Our Story</a>
+        <a href="products/" class="nav-link">Products</a>
+        <a href="gallery/" class="nav-link">Gallery</a>
+      </nav>
+
+      <div class="nav-logo">
+        <a href="./" aria-label="Keshuji Sweets Home">
+          <img src="assets/KeshuJI-Logo.png" alt="Keshuji Sweets" />
+        </a>
+      </div>
+
+      <nav class="nav-right">
+        <a href="contacts/" class="nav-link">Stores</a>
+        <a href="assets/Keshuji%20Sweets%20%E2%80%94%20Signature%20Catalogue.pdf" 
+           download="Keshuji Sweets — Signature Catalogue.pdf" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="nav-brochure-btn" 
+           id="nav-brochure-btn"
+           title="Download Product Brochure">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          <span>Brochure</span>
+        </a>
+        <a href="contacts/" class="nav-enquire">Enquire</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open Navigation Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="./" class="nav-link active">Home</a>
+    <a href="story/" class="nav-link">Our Story</a>
+    <a href="products/" class="nav-link">Products</a>
+    <a href="gallery/" class="nav-link">Gallery</a>
+    <a href="contacts/" class="nav-link">Stores &amp; Contact</a>
+    <a href="assets/Keshuji%20Sweets%20%E2%80%94%20Signature%20Catalogue.pdf" 
+       download="Keshuji Sweets — Signature Catalogue.pdf" 
+       target="_blank" 
+       class="nav-brochure-btn">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      <span>Download Brochure</span>
+    </a>
+  </div>
+
+  <!-- ===== HERO WITH FLOATING MITHAI SVGS ===== -->
+  <section class="hero" id="hero" style="position: relative;">
+    
+    <!-- Floating Mithai SVGs Canvas -->
+    <div class="floating-mithai-canvas" aria-hidden="true">
+      
+      <!-- 1. Floating Kaju Katli (Top Left) -->
+      <div class="float-item float-1" style="top: 18%; left: 6%;">
+        <svg viewBox="0 0 100 70" width="76" height="54" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,4 95,35 50,66 5,35" fill="#FAF1DF" stroke="#D1BE94" stroke-width="1.5"/>
+          <polygon points="50,4 95,35 50,66 5,35" fill="url(#silverSheen1)" opacity="0.85"/>
+          <path d="M35,20 L65,22 L55,45 L30,40 Z" fill="#FFFFFF" opacity="0.7"/>
+          <path d="M45,28 L60,30 L52,40 L40,36 Z" fill="#E4ECF0" opacity="0.95"/>
+          <defs>
+            <linearGradient id="silverSheen1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+              <stop offset="50%" stop-color="#D5DFE6" stop-opacity="0.5"/>
+              <stop offset="100%" stop-color="#F2E6CD" stop-opacity="0.8"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- 2. Floating Motichoor Laddu (Bottom Left) -->
+      <div class="float-item float-2" style="bottom: 14%; left: 12%;">
+        <svg viewBox="0 0 80 80" width="62" height="62" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="34" fill="url(#ladduGrad1)"/>
+          <circle cx="28" cy="28" r="7" fill="#FFAF00"/>
+          <circle cx="44" cy="24" r="8" fill="#FF9A00"/>
+          <circle cx="34" cy="42" r="7.5" fill="#FFB71A"/>
+          <circle cx="52" cy="38" r="8" fill="#E88200"/>
+          <circle cx="25" cy="48" r="7" fill="#FFA500"/>
+          <circle cx="42" cy="54" r="7.5" fill="#FF8D00"/>
+          <ellipse cx="38" cy="32" rx="3" ry="1.5" fill="#5F8835" transform="rotate(-25 38 32)"/>
+          <ellipse cx="48" cy="46" rx="3.5" ry="1.8" fill="#4D7528" transform="rotate(35 48 46)"/>
+          <defs>
+            <radialGradient id="ladduGrad1" cx="35%" cy="35%" r="65%">
+              <stop offset="0%" stop-color="#FFD15C"/>
+              <stop offset="55%" stop-color="#F59E0B"/>
+              <stop offset="100%" stop-color="#B45309"/>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- 3. Floating Kesar Jalebi (Center Right) -->
+      <div class="float-item float-3" style="top: 24%; right: 48%;">
+        <svg viewBox="0 0 90 90" width="68" height="68" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M45,15 C60,15 72,25 72,40 C72,55 58,68 42,68 C26,68 18,55 18,42 C18,28 30,22 42,22 C52,22 62,30 60,44 C58,54 48,58 40,58 C32,58 28,50 30,42 C32,36 38,34 44,36 C48,38 48,46 42,46" 
+                stroke="url(#jalebiGrad1)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M45,16 C57,16 68,24 68,38" stroke="#FFEAA5" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+          <defs>
+            <linearGradient id="jalebiGrad1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#FFB300"/>
+              <stop offset="50%" stop-color="#F97316"/>
+              <stop offset="100%" stop-color="#C2410C"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- 4. Floating Shahi Peda (Mid Right) -->
+      <div class="float-item float-4" style="bottom: 22%; right: 5%;">
+        <svg viewBox="0 0 80 80" width="58" height="58" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="40" cy="40" rx="34" ry="30" fill="url(#pedaGrad1)"/>
+          <ellipse cx="40" cy="39" rx="13" ry="10" fill="#C9943B" opacity="0.4"/>
+          <ellipse cx="38" cy="37" rx="4.5" ry="2.8" fill="#6A9739" transform="rotate(-15 38 37)"/>
+          <path d="M37,34 Q43,35 45,39" stroke="#C81E1E" stroke-width="1.4" stroke-linecap="round"/>
+          <defs>
+            <radialGradient id="pedaGrad1" cx="40%" cy="35%" r="60%">
+              <stop offset="0%" stop-color="#FFF0D0"/>
+              <stop offset="60%" stop-color="#E8BC70"/>
+              <stop offset="100%" stop-color="#B28236"/>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- 5. Floating Damask Rose Petal (Top Right) -->
+      <div class="float-item float-5" style="top: 12%; right: 14%;">
+        <svg viewBox="0 0 60 60" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30,5 C42,12 52,26 48,42 C44,54 28,56 18,48 C8,40 10,22 18,12 C22,7 26,4 30,5 Z" fill="url(#petalGrad1)" opacity="0.8"/>
+          <path d="M28,14 Q34,26 36,44" stroke="#FFE4EC" stroke-width="1" opacity="0.6"/>
+          <defs>
+            <linearGradient id="petalGrad1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#FFA4B0"/>
+              <stop offset="60%" stop-color="#E63956"/>
+              <stop offset="100%" stop-color="#9E1B32"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-text-col" style="position: relative; z-index: 2;">
+      <p class="hero-heritage">Est. 1965 &bull; Rajasthan</p>
+      <h1 class="hero-headline">
+        Sweetness<br/>
+        <em>crafted by<br/>hand.</em>
+      </h1>
+      <p class="hero-sub">
+        Pure desi ghee &amp; heirloom recipes since 1965.
+      </p>
+      <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+        <a href="products/" class="btn-text" id="hero-cta">
+          Explore Sweets <span class="arrow">&rarr;</span>
+        </a>
+        <a href="assets/Keshuji%20Sweets%20%E2%80%94%20Signature%20Catalogue.pdf" 
+           download="Keshuji Sweets — Signature Catalogue.pdf" 
+           target="_blank" 
+           class="nav-brochure-btn" 
+           style="background: var(--beige); border-color: var(--beige-dark);">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          <span>Catalog PDF</span>
+        </a>
+      </div>
+
+      <!-- Hero Quick Categories -->
+      <div class="hero-quick-cats">
+        <span class="hero-quick-label">Categories:</span>
+        <div class="hero-quick-tags">
+          <a href="products/?cat=Royal+Kaju" class="hero-quick-tag">Royal Kaju</a>
+          <a href="products/?cat=Signature+Heritage" class="hero-quick-tag">Heritage</a>
+          <a href="products/?cat=Bengali+Sweets" class="hero-quick-tag">Bengali</a>
+          <a href="products/?cat=Laddus" class="hero-quick-tag">Laddus</a>
+          <a href="products/?cat=Artisanal+Barfi" class="hero-quick-tag">Barfi</a>
+          <a href="products/?cat=Dry+Fruit" class="hero-quick-tag">Dry Fruit</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image-col">
+      <div class="hero-img-frame">
+        <img src="assets/kaju-anjeer-chakra.jpg" alt="Kaju Anjeer Chakra" class="hero-img" id="hero-main-img" />
+      </div>
+      <div class="hero-since">
+        <span class="since-num">1965</span>
+        <span class="since-line"></span>
+        <span class="since-text">Since</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-band" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Kaju Katli</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Moong Dal Barfi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Rabdi Ghevar</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Rasmalai</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Motichoor Laddu</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kalakand</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Anjeer Barfi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kesar Jalebi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Dry Fruit Laddu</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kaju Pista Roll</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <!-- dupe for continuous loop -->
+      <span>Kaju Katli</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Moong Dal Barfi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Rabdi Ghevar</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Rasmalai</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Motichoor Laddu</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kalakand</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Anjeer Barfi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kesar Jalebi</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Dry Fruit Laddu</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+      <span>Kaju Pista Roll</span><span class="sep">&nbsp;&middot;&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ===== BROWSE BY CATEGORY ===== -->
+  <section class="categories-browse" id="categories-browse">
+    <div class="container">
+      
+      <div class="categories-browse-header reveal">
+        <div>
+          <span class="label">Collections</span>
+          <h2 class="heading">Browse by Category</h2>
+        </div>
+        <a href="products/" class="btn-text">View All <span class="arrow">&rarr;</span></a>
+      </div>
+
+      <!-- Quick Interactive Category Filter Pills on Homepage -->
+      <div class="home-category-pills reveal" id="home-category-pills">
+        <button class="home-cat-pill active" data-cat-filter="all">All</button>
+        <button class="home-cat-pill" data-cat-filter="Royal Kaju">Royal Kaju (8)</button>
+        <button class="home-cat-pill" data-cat-filter="Signature Heritage">Heritage (5)</button>
+        <button class="home-cat-pill" data-cat-filter="Bengali Sweets">Bengali (6)</button>
+        <button class="home-cat-pill" data-cat-filter="Laddus">Laddus (6)</button>
+        <button class="home-cat-pill" data-cat-filter="Artisanal Barfi">Barfi (4)</button>
+        <button class="home-cat-pill" data-cat-filter="Dry Fruit">Dry Fruit (4)</button>
+        <button class="home-cat-pill" data-cat-filter="Gift Boxes">Hampers (3)</button>
+      </div>
+
+      <div class="category-cards-grid" id="home-category-grid">
+
+        <!-- 1. Royal Kaju -->
+        <a href="products/?cat=Royal+Kaju" class="category-card reveal" data-category="Royal Kaju">
+          <div class="category-card-img-wrap">
+            <img src="assets/kaju-anjeer-chakra.jpg" alt="Royal Kaju Sweets" loading="lazy" />
+            <span class="category-card-tag">Cashew</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Royal Kaju</h3>
+              <span class="category-card-hindi">शाही काजू</span>
+            </div>
+            <div class="category-card-count">8 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 2. Signature Heritage -->
+        <a href="products/?cat=Signature+Heritage" class="category-card reveal" data-category="Signature Heritage">
+          <div class="category-card-img-wrap">
+            <img src="assets/rabri-ghevar.jpg" alt="Signature Heritage Sweets" loading="lazy" />
+            <span class="category-card-tag">Heritage</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Signature Heritage</h3>
+              <span class="category-card-hindi">पारंपरिक</span>
+            </div>
+            <div class="category-card-count">5 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 3. Bengali Sweets -->
+        <a href="products/?cat=Bengali+Sweets" class="category-card reveal" data-category="Bengali Sweets">
+          <div class="category-card-img-wrap">
+            <img src="assets/rasmalai.jpg" alt="Bengali Sweets" loading="lazy" />
+            <span class="category-card-tag">Chhena</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Bengali Sweets</h3>
+              <span class="category-card-hindi">बंगाली</span>
+            </div>
+            <div class="category-card-count">6 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 4. Laddus & Halwa -->
+        <a href="products/?cat=Laddus" class="category-card reveal" data-category="Laddus">
+          <div class="category-card-img-wrap">
+            <img src="assets/motichoor-laddu.jpg" alt="Laddus and Halwa" loading="lazy" />
+            <span class="category-card-tag">Desi Ghee</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Laddus &amp; Halwa</h3>
+              <span class="category-card-hindi">लड्डू</span>
+            </div>
+            <div class="category-card-count">6 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 5. Artisanal Barfi -->
+        <a href="products/?cat=Artisanal+Barfi" class="category-card reveal" data-category="Artisanal Barfi">
+          <div class="category-card-img-wrap">
+            <img src="assets/gulab-halwa-ki-barfi.jpg" alt="Artisanal Barfi" loading="lazy" />
+            <span class="category-card-tag">Mawa</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Artisanal Barfi</h3>
+              <span class="category-card-hindi">बर्फी</span>
+            </div>
+            <div class="category-card-count">4 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 6. Royal Dry Fruit -->
+        <a href="products/?cat=Dry+Fruit" class="category-card reveal" data-category="Dry Fruit">
+          <div class="category-card-img-wrap">
+            <img src="assets/dry-fruit-laddu.jpg" alt="Dry Fruit Confections" loading="lazy" />
+            <span class="category-card-tag">Dry Fruit</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Royal Dry Fruit</h3>
+              <span class="category-card-hindi">ड्रायफ्रूट</span>
+            </div>
+            <div class="category-card-count">4 Varieties</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+        <!-- 7. Festive Gift Hampers -->
+        <a href="products/?cat=Gift+Boxes" class="category-card reveal" data-category="Gift Boxes">
+          <div class="category-card-img-wrap">
+            <img src="assets/chhappan-bhog-thali.jpg" alt="Festive Gift Hampers" loading="lazy" />
+            <span class="category-card-tag">Gifting</span>
+          </div>
+          <div class="category-card-info">
+            <div class="category-card-title-row">
+              <h3 class="category-card-name">Gift Hampers</h3>
+              <span class="category-card-hindi">उपहार</span>
+            </div>
+            <div class="category-card-count">3 Options</div>
+            <span class="category-card-action">Explore <span class="arrow">&rarr;</span></span>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== EDITORIAL TEASERS ===== -->
+  <section class="teasers">
+    <div class="container">
+      <div class="teasers-grid">
+
+        <article class="teaser reveal" id="teaser-story">
+          <div class="teaser-img-wrap">
+            <img src="assets/keshuji-outlet-front.jpg" alt="Our story" loading="lazy" />
+          </div>
+          <div class="teaser-body">
+            <span class="label">Heritage</span>
+            <h2 class="teaser-title">Since 1965</h2>
+            <p class="teaser-text">Six decades of heirloom recipes in Kuchaman City.</p>
+            <a href="story/" class="btn-text">Our Story <span class="arrow">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="teaser teaser-invert reveal" id="teaser-products">
+          <div class="teaser-img-wrap">
+            <img src="assets/kaju-mix-box-fancy.jpg" alt="Our products" loading="lazy" />
+          </div>
+          <div class="teaser-body">
+            <span class="label">Craft</span>
+            <h2 class="teaser-title">Pure Ghee</h2>
+            <p class="teaser-text">Fresh daily mithai made with pure cow ghee.</p>
+            <a href="products/" class="btn-text">Browse Sweets <span class="arrow">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="teaser reveal" id="teaser-gifts">
+          <div class="teaser-img-wrap">
+            <img src="assets/premium-dry-fruits-gift-pack.jpg" alt="Gift hampers" loading="lazy" />
+          </div>
+          <div class="teaser-body">
+            <span class="label">Gifting</span>
+            <h2 class="teaser-title">Celebrations</h2>
+            <p class="teaser-text">Bespoke wedding boxes &amp; festive hampers.</p>
+            <a href="contacts/" class="btn-text">Enquire <span class="arrow">&rarr;</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CRAFTSMANSHIP STATS ===== -->
+  <section class="numbers">
+    <div class="container">
+      <div class="numbers-grid">
+        <div class="number-item reveal">
+          <span class="number-val">60+</span>
+          <span class="number-label">Years Heritage</span>
+        </div>
+        <div class="number-item reveal">
+          <span class="number-val">100%</span>
+          <span class="number-label">Pure Desi Ghee</span>
+        </div>
+        <div class="number-item reveal">
+          <span class="number-val">40+</span>
+          <span class="number-label">Varieties</span>
+        </div>
+        <div class="number-item reveal">
+          <span class="number-val">Fresh</span>
+          <span class="number-label">Made Daily</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSTAGRAM VIDEOS SECTION (HORIZONTALLY ARRANGED) ===== -->
+  <section class="insta-reels-section">
+    <div class="container">
+      <div class="insta-reels-header reveal">
+        <div>
+          <span class="insta-reels-eyebrow">Straight From KeshuJI Sweets</span>
+          <h2 class="insta-reels-title">Kitchens &amp; Counters</h2>
+        </div>
+        <a href="https://www.instagram.com/keshuji_sweets/" target="_blank" rel="noopener noreferrer" class="insta-follow-btn">
+          <span>Follow @keshuji_sweets</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="insta-reels-grid">
+        <!-- Reel 1 -->
+        <div class="insta-reel-card reveal">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DYRw96iSI1U/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            <div style="padding:16px;">
+              <a href="https://www.instagram.com/reel/DYRw96iSI1U/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                <div style="display:flex; flex-direction:row; align-items:center;">
+                  <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:40px; margin-right:14px; width:40px;"></div>
+                  <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center;">
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:100px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:60px;"></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0;"></div>
+                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg>
+                </div>
+                <div style="padding-top: 8px;">
+                  <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div>
+                </div>
+                <div style="padding: 12.5% 0;"></div>
+                <div style="display:flex; flex-direction:row; margin-bottom:14px; align-items:center;">
+                  <div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(0px) translateY(7px);"></div>
+                    <div style="background-color:#F4F4F4; height:12.5px; transform:rotate(-45deg) translateX(3px) translateY(1px); width:12.5px; flex-grow:0; margin-right:14px; margin-left:2px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(9px) translateY(-18px);"></div>
+                  </div>
+                  <div style="margin-left: 8px;">
+                    <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:20px; width:20px;"></div>
+                    <div style="width:0; height:0; border-top:2px solid transparent; border-left:6px solid #f4f4f4; border-bottom:2px solid transparent; transform:translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                  </div>
+                  <div style="margin-left:auto;">
+                    <div style="width:0px; border-top:8px solid #F4F4F4; border-right:8px solid transparent; transform:translateY(16px);"></div>
+                    <div style="background-color:#F4F4F4; flex-grow:0; height:12px; width:16px; transform:translateY(-4px);"></div>
+                    <div style="width:0; height:0; border-top:8px solid #F4F4F4; border-left:8px solid transparent; transform:translateY(-4px) translateX(8px);"></div>
+                  </div>
+                </div>
+                <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center; margin-bottom:24px;">
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:224px;"></div>
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:144px;"></div>
+                </div>
+              </a>
+              <p style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/DYRw96iSI1U/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by KESHUJI SWEETS💛 (@keshuji_sweets)</a></p>
+            </div>
+          </blockquote>
+        </div>
+
+        <!-- Reel 2 -->
+        <div class="insta-reel-card reveal">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbzJ8R5zh20/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            <div style="padding:16px;">
+              <a href="https://www.instagram.com/reel/DbzJ8R5zh20/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                <div style="display:flex; flex-direction:row; align-items:center;">
+                  <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:40px; margin-right:14px; width:40px;"></div>
+                  <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center;">
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:100px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:60px;"></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0;"></div>
+                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg>
+                </div>
+                <div style="padding-top: 8px;">
+                  <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div>
+                </div>
+                <div style="padding: 12.5% 0;"></div>
+                <div style="display:flex; flex-direction:row; margin-bottom:14px; align-items:center;">
+                  <div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(0px) translateY(7px);"></div>
+                    <div style="background-color:#F4F4F4; height:12.5px; transform:rotate(-45deg) translateX(3px) translateY(1px); width:12.5px; flex-grow:0; margin-right:14px; margin-left:2px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(9px) translateY(-18px);"></div>
+                  </div>
+                  <div style="margin-left: 8px;">
+                    <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:20px; width:20px;"></div>
+                    <div style="width:0; height:0; border-top:2px solid transparent; border-left:6px solid #f4f4f4; border-bottom:2px solid transparent; transform:translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                  </div>
+                  <div style="margin-left:auto;">
+                    <div style="width:0px; border-top:8px solid #F4F4F4; border-right:8px solid transparent; transform:translateY(16px);"></div>
+                    <div style="background-color:#F4F4F4; flex-grow:0; height:12px; width:16px; transform:translateY(-4px);"></div>
+                    <div style="width:0; height:0; border-top:8px solid #F4F4F4; border-left:8px solid transparent; transform:translateY(-4px) translateX(8px);"></div>
+                  </div>
+                </div>
+                <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center; margin-bottom:24px;">
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:224px;"></div>
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:144px;"></div>
+                </div>
+              </a>
+              <p style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/DbzJ8R5zh20/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by KESHUJI SWEETS💛 (@keshuji_sweets)</a></p>
+            </div>
+          </blockquote>
+        </div>
+
+        <!-- Reel 3 -->
+        <div class="insta-reel-card reveal">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dcf34h7yQHs/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            <div style="padding:16px;">
+              <a href="https://www.instagram.com/reel/Dcf34h7yQHs/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                <div style="display:flex; flex-direction:row; align-items:center;">
+                  <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:40px; margin-right:14px; width:40px;"></div>
+                  <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center;">
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:100px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:60px;"></div>
+                  </div>
+                </div>
+                <div style="padding: 19% 0;"></div>
+                <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                  <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg>
+                </div>
+                <div style="padding-top: 8px;">
+                  <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div>
+                </div>
+                <div style="padding: 12.5% 0;"></div>
+                <div style="display:flex; flex-direction:row; margin-bottom:14px; align-items:center;">
+                  <div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(0px) translateY(7px);"></div>
+                    <div style="background-color:#F4F4F4; height:12.5px; transform:rotate(-45deg) translateX(3px) translateY(1px); width:12.5px; flex-grow:0; margin-right:14px; margin-left:2px;"></div>
+                    <div style="background-color:#F4F4F4; border-radius:50%; height:12.5px; width:12.5px; transform:translateX(9px) translateY(-18px);"></div>
+                  </div>
+                  <div style="margin-left: 8px;">
+                    <div style="background-color:#F4F4F4; border-radius:50%; flex-grow:0; height:20px; width:20px;"></div>
+                    <div style="width:0; height:0; border-top:2px solid transparent; border-left:6px solid #f4f4f4; border-bottom:2px solid transparent; transform:translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                  </div>
+                  <div style="margin-left:auto;">
+                    <div style="width:0px; border-top:8px solid #F4F4F4; border-right:8px solid transparent; transform:translateY(16px);"></div>
+                    <div style="background-color:#F4F4F4; flex-grow:0; height:12px; width:16px; transform:translateY(-4px);"></div>
+                    <div style="width:0; height:0; border-top:8px solid #F4F4F4; border-left:8px solid transparent; transform:translateY(-4px) translateX(8px);"></div>
+                  </div>
+                </div>
+                <div style="display:flex; flex-direction:column; flex-grow:1; justify-content:center; margin-bottom:24px;">
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; margin-bottom:6px; width:224px;"></div>
+                  <div style="background-color:#F4F4F4; border-radius:4px; flex-grow:0; height:14px; width:144px;"></div>
+                </div>
+              </a>
+              <p style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Dcf34h7yQHs/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by KESHUJI SWEETS💛 (@keshuji_sweets)</a></p>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script async src="//www.instagram.com/embed.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      if (window.instgrm && window.instgrm.Embeds) {
+        window.instgrm.Embeds.process();
+      }
+    });
+  </script>
+
+  <!-- ===== LUXURY FOOTER (MATCHING USER REFERENCE) ===== -->
+  <footer class="footer-ref">
+    
+    <!-- Top-Left Soft Pistachio Leaf Motif -->
+    <div class="footer-pistachio-leaf" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50,15 C68,22 82,42 75,68 C68,88 42,92 28,78 C12,65 15,38 28,25 C35,18 42,14 50,15 Z" fill="#8BA856" opacity="0.6"/>
+        <path d="M48,22 Q56,48 62,75" stroke="#718E40" stroke-width="2" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <!-- Bottom-Left Etched Golden Rose Art (Vector Line Art) -->
+    <div class="footer-rose-art" aria-hidden="true">
+      <svg viewBox="0 0 280 260" fill="none" stroke="#C9950A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+        <!-- Botanical Rose Bloom Petal Curves -->
+        <path d="M120,130 C125,120 135,120 140,128 C145,136 138,145 130,145 C122,145 115,138 120,130 Z" />
+        <path d="M110,122 C120,110 145,110 152,122 C160,134 150,152 136,155 C120,158 102,140 110,122 Z" />
+        <path d="M96,115 C115,98 155,98 168,118 C180,138 168,165 146,170 C118,175 88,148 96,115 Z" />
+        <path d="M80,105 C108,82 170,82 188,110 C204,136 188,178 158,186 C118,196 70,160 80,105 Z" />
+        <path d="M60,95 C98,65 188,65 210,102 C230,138 208,194 170,205 C116,220 50,172 60,95 Z" />
+        <!-- Outer Flared Petals -->
+        <path d="M42,88 C88,48 208,48 234,92 C255,136 230,212 182,226 C112,246 30,190 42,88 Z" />
+        <path d="M25,82 C78,35 228,35 258,85 C282,135 252,228 195,245 C115,268 12,205 25,82 Z" />
+        <!-- Leaves and Stems -->
+        <path d="M65,195 C45,210 20,218 5,212 C8,190 28,175 55,182" />
+        <path d="M5,212 Q35,195 65,195" />
+        <path d="M185,230 C205,242 232,248 248,240 C242,218 220,208 195,218" />
+        <path d="M248,240 Q215,228 185,230" />
+      </svg>
+    </div>
+
+    <div class="footer-ref-inner">
+      <div class="footer-grid-ref">
+        
+        <!-- Col 1: Tagline & Newsletter -->
+        <div class="footer-col">
+          <h3 class="footer-col-h">Rishta Zindagi Bhar Ka!</h3>
+          <form class="newsletter-pill" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Keshuji Sweets!'); this.reset();">
+            <input type="email" placeholder="Enter your email" aria-label="Enter your email" required />
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe to newsletter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+          <p class="footer-newsletter-p">Subscribe to our newsletter for festive launches and seasonal delicacies.</p>
+        </div>
+
+        <!-- Col 2: Follow Us On (No Amazon/Flipkart as instructed) -->
+        <div class="footer-col">
+          <h3 class="footer-col-h">Follow Us On</h3>
+          <div class="footer-social-row">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-badge" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/keshuji_sweets/" target="_blank" rel="noopener noreferrer" class="social-icon-badge" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/919829163997" target="_blank" rel="noopener noreferrer" class="social-icon-badge" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 3: Contact Us -->
+        <div class="footer-col">
+          <h3 class="footer-col-h">Contact Us</h3>
+          <div class="footer-contact-info">
+            <p><a href="tel:+919829163997">+91 9829163997</a>, <a href="tel:+919001023997">+91 9001023997</a></p>
+            <p><a href="mailto:hello@keshujisweets.com">hello@keshujisweets.com</a></p>
+            <p style="margin-top: 4px;">
+              <span class="outlet-tag">Outlet 1:</span> Sikar Rd, opposite Gol Piyau, Kuchaman City, Rajasthan 341508
+            </p>
+            <p>
+              <span class="outlet-tag">Outlet 2:</span> Vikas bhavan road, near new post office, Kuchaman City, Rajasthan 341508
+            </p>
+          </div>
+        </div>
+
+        <!-- Col 4: Quick Links -->
+        <div class="footer-col">
+          <h3 class="footer-col-h">Quick Links</h3>
+          <div class="footer-links-list">
+            <a href="story/">Our Story</a>
+            <a href="products/">Signature Sweets</a>
+            <a href="gallery/">Photo Gallery</a>
+            <a href="contacts/">Stores &amp; Gifting</a>
+            <a href="assets/Keshuji%20Sweets%20%E2%80%94%20Signature%20Catalogue.pdf" download="Keshuji Sweets — Signature Catalogue.pdf" target="_blank">Download Brochure</a>
+            <a href="contacts/">Privacy Policy</a>
+            <a href="contacts/">Terms of Service</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Store Locations Map -->
+      <div class="footer-map-section">
+        <div class="footer-map-header">
+          <div class="footer-map-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Our Outlets in Kuchaman City</span>
+          </div>
+          <span class="footer-map-sub">Outlet 1 &bull; Outlet 2</span>
+        </div>
+        <div class="footer-map-frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.164956334261!2d74.86075079999999!3d27.148675500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396b7925e12589c7%3A0x1d13953abff2a371!2sKeshuji%20Sweets%20%7C%7C%20Famous%20Mithai%20Store%2C%20Best%20Sweet%20%26%20Namkeen%20Shop%20In%20Kuchaman%20City!5e1!3m2!1sen!2sin!4v1789859242750!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Keshuji Sweets — Google Maps"></iframe>
+        </div>
+      </div>
+
+      <!-- Bottom Center Emblem Badge -->
+      <div class="footer-bottom-badge-wrap">
+        <a href="./" class="footer-emblem-badge" aria-label="Keshuji Sweets">
+          <img src="assets/KeshuJI-Logo.png" alt="Keshuji Sweets Logo" />
+          <span class="footer-since-tag">SINCE 1965</span>
+        </a>
+        <p class="footer-bottom-copy">&copy; 2026 Keshuji Sweets&reg; &mdash; Kuchaman City, Rajasthan &mdash; Preserving Purity &amp; Heritage</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script>
+    // Hero image rotation
+    const imgs = [
+      'assets/kaju-anjeer-chakra.jpg',
+      'assets/motichoor-laddu.jpg',
+      'assets/rabri-ghevar.jpg',
+      'assets/gulab-halwa-ki-barfi.jpg',
+      'assets/kaju-mix-box-fancy.jpg',
+    ];
+    let idx = 0;
+    const heroImg = document.getElementById('hero-main-img');
+    if (heroImg) {
+      setInterval(() => {
+        idx = (idx + 1) % imgs.length;
+        heroImg.style.transition = 'opacity 0.6s ease';
+        heroImg.style.opacity = '0';
+        setTimeout(() => {
+          heroImg.src = imgs[idx];
+          heroImg.style.opacity = '1';
+        }, 600);
+      }, 4500);
+    }
+    // Reveal
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
+    }, {threshold: 0.08});
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    // Homepage Category Filter Pills
+    const catPills = document.querySelectorAll('.home-cat-pill');
+    const catCards = document.querySelectorAll('#home-category-grid .category-card');
+    catPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        catPills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        const filter = pill.getAttribute('data-cat-filter');
+        catCards.forEach(card => {
+          const cardCat = card.getAttribute('data-category') || '';
+          if (filter === 'all' || cardCat.toLowerCase().includes(filter.toLowerCase())) {
+            card.classList.remove('is-hidden');
+          } else {
+            card.classList.add('is-hidden');
+          }
+        });
+      });
+    });
+
+    // ===== CHASHNI SWEET LOADER INITIALIZATION =====
+    (function initSweetLoader() {
+      const loader = document.getElementById('sweet-loader');
+      if (!loader) return;
+
+      document.body.classList.add('loading-active');
+
+      const fillLevel = document.getElementById('chashni-fill-level');
+      const barFill = document.getElementById('chashni-bar-fill');
+      const percentText = document.getElementById('chashni-percent');
+      const subtext = document.getElementById('chashni-subtext');
+
+      let currentPercent = 0;
+      const targetPercent = 100;
+      const duration = 2200; // 2.2s pour time
+      const intervalTime = 25;
+      const step = targetPercent / (duration / intervalTime);
+
+      const flavorNotes = [
+        "Simmering pure desi ghee & saffron...",
+        "Infusing heirloom royal sugar syrup...",
+        "Slow-cooking handcrafted delicacies...",
+        "Sweetness ready to serve!"
+      ];
+
+      const timer = setInterval(() => {
+        const jitter = (Math.random() * 0.3) - 0.1;
+        currentPercent += step + jitter;
+
+        if (currentPercent >= targetPercent) {
+          currentPercent = targetPercent;
+          clearInterval(timer);
+          finishLoading();
+        }
+
+        const rounded = Math.floor(currentPercent);
+        if (fillLevel) fillLevel.style.height = `${currentPercent}%`;
+        if (barFill) barFill.style.width = `${currentPercent}%`;
+        if (percentText) percentText.textContent = `${rounded}%`;
+
+        if (subtext) {
+          if (rounded < 30) subtext.textContent = flavorNotes[0];
+          else if (rounded < 65) subtext.textContent = flavorNotes[1];
+          else if (rounded < 94) subtext.textContent = flavorNotes[2];
+          else subtext.textContent = flavorNotes[3];
+        }
+      }, intervalTime);
+
+      function finishLoading() {
+        setTimeout(() => {
+          loader.classList.add('loaded');
+          document.body.classList.remove('loading-active');
+          setTimeout(() => {
+            if (loader && loader.parentNode) loader.parentNode.removeChild(loader);
+          }, 700);
+        }, 300);
+      }
+
+      // Fail-safe
+      setTimeout(() => {
+        if (loader && !loader.classList.contains('loaded')) {
+          finishLoading();
+        }
+      }, 3600);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "peda-keshuji-special",
+    "name": "Peda (Keshuji Signature)",
+    "hindiName": "पेड़ा",
+    "category": "Signature Heritage",
+    "description": "Traditional slow-cooked caramelized mawa fudge spiced with fragrant green cardamom and saffron.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "moong-ki-barfi",
+    "name": "Moong Dal Barfi",
+    "hindiName": "मूंग की बर्फी",
+    "category": "Signature Heritage",
+    "description": "Rich slow-roasted yellow lentil fudge prepared with pure desi ghee, khoya, and crunchy slivered nuts.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "rabri-ghevar",
+    "name": "Rabdi Ghevar",
+    "hindiName": "रबड़ी घेवर",
+    "category": "Signature Heritage & Ghevar",
+    "description": "Iconic golden honeycomb ghevar topped with rich saffron-infused reduced milk rabdi and pistachios.",
+    "sizes": ["Piece", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "plain-ghevar",
+    "name": "Plain / Mitha Ghevar",
+    "hindiName": "सादा घेवर",
+    "category": "Signature Heritage & Ghevar",
+    "description": "Crisp, porous Rajasthani honeycomb delicacy gently soaked in aromatic saffron-cardamom syrup.",
+    "sizes": ["Piece", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kalakand",
+    "name": "Kalakand",
+    "hindiName": "कलाकन्द",
+    "category": "Signature Heritage",
+    "description": "Classic granular soft milk cake made from pure slow-simmered whole milk and fresh paneer.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "milk-cake",
+    "name": "Alwar Milk Cake",
+    "hindiName": "मिल्क केक",
+    "category": "Signature Heritage",
+    "description": "Two-toned caramelized dense milk confection with an authentic roasted granular texture.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "rasmalai",
+    "name": "Rasmalai",
+    "hindiName": "रस मलाई",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Velvety cottage cheese discs steeped in chilled saffron and pistachio-infused thickened milk.",
+    "sizes": ["2 Pcs", "4 Pcs", "Bulk Pack"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "gupchup",
+    "name": "Sweet Gupchup",
+    "hindiName": "गुपचुप",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Bite-sized artisanal soft chhena pockets steeped in a light cardamom-perfumed sugar nectar.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "rasmadhuri",
+    "name": "Rasmadhuri",
+    "hindiName": "रस्माधुरी",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Artisanal stuffed chhena dessert layered with rich mawa and dry fruit filling in sweet saffron milk.",
+    "sizes": ["2 Pcs", "4 Pcs", "Bulk Pack"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "malai-chamcham",
+    "name": "Malai Cham Cham",
+    "hindiName": "मलाई चमचम",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Elongated delicate chhena sweet slit and lavishly filled with clotted malai cream and nuts.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "chhena-roll",
+    "name": "Chhena Roll",
+    "hindiName": "छूना रोल",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Silky fresh cottage cheese sheet rolled around an aromatic core of sweetened mawa and pistachios.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "chhena-toast",
+    "name": "Chhena Toast",
+    "hindiName": "छूना टोस्ट",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Golden caramelized rectangular chhena slice crowned with rich mawa cream and saffron.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "rasgulla",
+    "name": "Rasgulla",
+    "hindiName": "रसगुल्ला",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Pure, snow-white spongy cottage cheese spheres poached in clear rose-cardamom syrup.",
+    "sizes": ["250g", "500g", "1kg", "Tin"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "malai-tikkiya",
+    "name": "Malai Tikiya",
+    "hindiName": "मलाई टिकिया",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Tender flattened chhena patties immersed in thick clotted cream and fragrant saffron milk.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "chamcham",
+    "name": "Cham Cham",
+    "hindiName": "चमचम",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Traditional Bengali poached chhena confection coated with dry fruit and desiccated coconut.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kesar-bati",
+    "name": "Kesar Bati",
+    "hindiName": "केसर बाटी",
+    "category": "Royal Bengali & Milk Delicacies",
+    "description": "Saffron-tinged golden chhena dumplings filled with dry fruits and soaked in light nectar.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "special-dahi-vada",
+    "name": "Special Dahi Vada",
+    "hindiName": "स्पेशल दहीवड़ा",
+    "category": "Savouries & Chaat",
+    "description": "Melt-in-mouth lentil dumplings soaked in sweet whisked curd, topped with tamarind and mint chutneys.",
+    "sizes": ["2 Pcs", "Plate", "Party Pack"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "gulab-halwa-ki-barfi",
+    "name": "Gulab Halwa Ki Barfi",
+    "hindiName": "गुलाब हलवा की बर्फी",
+    "category": "Laddus & Halwa Specialities",
+    "description": "Aromatic rose petal infused slow-cooked milk halwa set into delectable fudge squares.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-katli",
+    "name": "Kaju Katli",
+    "hindiName": "काजू कतली",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Signature diamond slices made from the finest grade cashews, finished with edible silver leaf.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "badam-katli",
+    "name": "Badam Katli",
+    "hindiName": "बादाम कतली",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Luxurious almond fudge slices crafted from 100% blanched almonds and pure saffron.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-anjeer-chakra",
+    "name": "Kaju Anjeer Chakra",
+    "hindiName": "काजू अंजीर चक्र",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Intricate spiral pinwheel combining rich cashew fudge with organic dried Turkish figs.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-pista-roll",
+    "name": "Kaju Pista Roll",
+    "hindiName": "काजू पिस्ता रोल",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Silky cashew rolls enclosing a vibrant emerald center of finely ground pistachios.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-paan",
+    "name": "Kaju Paan",
+    "hindiName": "काजू पान",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Artisan betel-leaf folded cashew treat stuffed with gulkand, crunchy nuts, and spices.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-bite",
+    "name": "Kaju Bite",
+    "hindiName": "काजू बाइट",
+    "category": "Royal Kaju & Dry Fruit",
+    "description": "Crunchy roasted cashew fudge bite packed with assorted toasted nuts and natural flavors.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-dry-fruit-barfi",
+    "name": "Kaju Dry Fruit Barfi",
+    "hindiName": "काजू ड्रायफ्रूट बर्फी",
+    "category": "Dry Fruit & Healthy Confections",
+    "description": "Dense, opulent cashew fudge layered with crunchy roasted almonds and pistachios.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "anjeer-barfi",
+    "name": "Anjeer Barfi",
+    "hindiName": "अंजीर बर्फी",
+    "category": "Dry Fruit & Healthy Confections",
+    "description": "Naturally sweet, guilt-free fig confection loaded with chopped cashews and almonds.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "dry-fruit-laddu",
+    "name": "Dry Fruit Laddu",
+    "hindiName": "ड्रायफ्रूट लड्डू",
+    "category": "Dry Fruit & Healthy Confections",
+    "description": "Nutrient-dense power laddus handcrafted with dates, roasted nuts, and edible seeds.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kaju-mix-box-fancy",
+    "name": "Royal Kaju Mix Box Fancy",
+    "hindiName": "काजू मिक्स बॉक्स फैन्सी",
+    "category": "Gift Boxes & Assortments",
+    "description": "Exquisite gift box featuring a curated selection of handcrafted cashew and dry fruit delicacies.",
+    "sizes": ["500g Box", "1kg Box", "Custom Hamper"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "mix-mithai",
+    "name": "Mix Mithai Box",
+    "hindiName": "मिक्स मिठाई",
+    "category": "Gift Boxes & Assortments",
+    "description": "Festive assorted box curated with Keshuji's most celebrated traditional and modern sweets.",
+    "sizes": ["500g Box", "1kg Box", "Family Box"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kesar-malai-laddu",
+    "name": "Kesar Malai Laddu",
+    "hindiName": "केसर मलाई लड्डू",
+    "category": "Laddus & Halwa Specialities",
+    "description": "Melt-in-mouth milk cream spheres infused with saffron strands and crushed cardamom.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "motichoor-laddu",
+    "name": "Motichoor Laddu",
+    "hindiName": "मोतीचूर लड्डू",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Fine micro-pearls of gram flour fried in pure desi ghee and bound with fragrant saffron syrup.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "gulab-jamun",
+    "name": "Gulab Jamun",
+    "hindiName": "गुलाब जामुन",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Golden brown fried khoya dumplings simmered gently in rose and cardamom-infused sugar syrup.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kala-jamun",
+    "name": "Kala Jamun",
+    "hindiName": "काला जामुन",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Deep caramelized crisp outer crust enclosing a soft mawa and dry fruit stuffed core.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "balushahi",
+    "name": "Balushahi",
+    "hindiName": "बालू शाही",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Flaky, multi-layered golden pastry fried in desi ghee with a glossy crystalline sugar glaze.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "guliya",
+    "name": "Shahi Gujiya (Gulia)",
+    "hindiName": "गुलिया",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Crisp crescent-shaped golden pastry filled with sweetened khoya, roasted nuts, and coconut.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "besan-barfi",
+    "name": "Besan Barfi",
+    "hindiName": "बेसन बर्फी",
+    "category": "Laddus & Traditional Ghee Sweets",
+    "description": "Slow-roasted gram flour fudge prepared in pure cow ghee with cardamom and almond slivers.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "dilkashmar-barfi",
+    "name": "Dilkushar Barfi",
+    "hindiName": "दिलकशमार बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Royal Rajasthani wedding delicacy combining roasted besan, mawa, crunchy gondh, and ghee.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "doda-barfi",
+    "name": "Doda Barfi",
+    "hindiName": "डोडा बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Traditional sprouted wheat and milk fudge with a chewy texture, enriched with nuts.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "mawa-roll",
+    "name": "Mawa Roll",
+    "hindiName": "मावा रोल",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Tender rolled khoya sweet wrapped around a crunchy filling of pistachios and green cardamom.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "coconut-barfi",
+    "name": "Coconut Barfi",
+    "hindiName": "नारियल बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Fresh grated coconut simmered with condensed milk and cardamom into a tender white fudge.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "bombay-barfi",
+    "name": "Bombay Barfi (Ice Halwa)",
+    "hindiName": "बॉम्बे बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Wafer-thin translucent sheets of sweet halwa garnished with saffron strands and slivered nuts.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "chocolate-barfi",
+    "name": "Chocolate Barfi",
+    "hindiName": "चॉकलेट बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Modern dual-layer fudge uniting traditional mawa with rich Dutch cocoa chocolate.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "kalakand-barfi",
+    "name": "Kalakand Barfi",
+    "hindiName": "कलाकन्द बर्फी",
+    "category": "Artisanal Barfi & Mawa Sweets",
+    "description": "Firm set slices of rich, slow-simmered granular milk and paneer fudge.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  },
+  {
+    "id": "gajar-ka-halwa",
+    "name": "Gajar Ka Halwa",
+    "hindiName": "गाजर का हलवा",
+    "category": "Seasonal Specialties",
+    "description": "Winter delicacy of slow-simmered red carrots, full-cream milk, mawa, ghee, and roasted cashews.",
+    "sizes": ["250g", "500g", "1kg"],
+    "image": "",
+    "packagingImage": ""
+  }
+]
