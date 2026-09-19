@@ -31,7 +31,7 @@
     'signature heritage': {
       title: 'Signature Heritage Sweets',
       hindi: 'पारंपरिक मिष्ठान',
-      desc: 'Our founding heritage recipes perfected since 1965 in Jaipur — slow-cooked Rabdi Ghevar, caramelised Peda, and pure cow ghee Moong Dal Barfi.',
+      desc: 'Our founding heritage recipes perfected since 1965 in Kuchaman City — slow-cooked Rabdi Ghevar, caramelised Peda, and pure cow ghee Moong Dal Barfi.',
       tag: 'Est. 1965 Heirloom'
     },
     'royal kaju': {
