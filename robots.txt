@@ -13,6 +13,5 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /assets/
 
-# Host & Sitemap
-Host: https://keshujisweets.com
+# Sitemap
 Sitemap: https://keshujisweets.com/sitemap.xml
