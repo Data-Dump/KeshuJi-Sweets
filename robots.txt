@@ -3,4 +3,16 @@ Allow: /
 Disallow: /data/
 Disallow: /archive/
 
+# Explicit Bot Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+# Host & Sitemap
+Host: https://keshujisweets.com
 Sitemap: https://keshujisweets.com/sitemap.xml

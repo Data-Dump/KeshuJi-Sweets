@@ -1,0 +1,23 @@
+{
+  "name": "Keshuji Sweets — Handcrafted Indian Mithai Since 1965",
+  "short_name": "Keshuji Sweets",
+  "description": "India's beloved handcrafted mithai made with pure desi ghee and tradition since 1965. Kuchaman City, Rajasthan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0B",
+  "theme_color": "#991B1B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/KeshuJI-Logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "food",
+    "shopping",
+    "lifestyle"
+  ]
+}

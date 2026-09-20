@@ -1,33 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Home Page -->
   <url>
     <loc>https://keshujisweets.com/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/KeshuJI-Logo.png</image:loc>
+      <image:title>Keshuji Sweets Royal Emblem &amp; Logo</image:title>
+      <image:caption>Handcrafted Indian Mithai Since 1965 in Kuchaman City Rajasthan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/kaju-mix-box-fancy.jpg</image:loc>
+      <image:title>Royal Kaju Mithai Gift Box</image:title>
+      <image:caption>Signature Handcrafted Cashew Delicacies &amp; Festive Gift Hampers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/rabri-ghevar.jpg</image:loc>
+      <image:title>Authentic Rajasthani Rabri Ghevar</image:title>
+      <image:caption>Traditional Disc of Honeycombed Mithai Topped with Rich Malai Rabri</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/motichoor-laddu.jpg</image:loc>
+      <image:title>Pure Desi Ghee Motichoor Laddu</image:title>
+      <image:caption>Finest Gram Flour Pearls Cooked in Pure Desi Ghee with Saffron</image:caption>
+    </image:image>
   </url>
-  <url>
-    <loc>https://keshujisweets.com/story/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
+  <!-- Products Catalog -->
   <url>
     <loc>https://keshujisweets.com/products/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/kaju-anjeer-chakra.jpg</image:loc>
+      <image:title>Kaju Anjeer Chakra</image:title>
+      <image:caption>Royal Cashew and Fig Pinwheels Infused with Saffron and Pistachio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/gulab-halwa-ki-barfi.jpg</image:loc>
+      <image:title>Gulab Halwa Ki Barfi</image:title>
+      <image:caption>Aromatic Rose Petal Infused Traditional Rajasthani Halwa Barfi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/chhappan-bhog-thali.jpg</image:loc>
+      <image:title>Chhappan Bhog Royal Sweets Thali</image:title>
+      <image:caption>Grand Heritage Assortment for Weddings, Poojas, and Special Occasions</image:caption>
+    </image:image>
   </url>
+
+  <!-- Our Story -->
+  <url>
+    <loc>https://keshujisweets.com/story/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/keshuji-outlet-front.jpg</image:loc>
+      <image:title>Keshuji Sweets Flagship Heritage Store</image:title>
+      <image:caption>Six Decades of Mithai Heritage in Kuchaman City, Rajasthan</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Photo Gallery -->
   <url>
     <loc>https://keshujisweets.com/gallery/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/assorted-bengali-sweets.jpg</image:loc>
+      <image:title>Assorted Bengali Sweets</image:title>
+      <image:caption>Fresh Spongy Rasgulla, Chamcham, and Rasmalai Cooked in Pure Milk Chenna</image:caption>
+    </image:image>
   </url>
+
+  <!-- Stores & Contact -->
   <url>
     <loc>https://keshujisweets.com/contacts/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://keshujisweets.com/assets/keshuji-outlet-counter.jpg</image:loc>
+      <image:title>Keshuji Sweets Vikas Bhavan Road Outlet Counter</image:title>
+      <image:caption>Fresh Daily Counter of Handcrafted Delicacies in Kuchaman City</image:caption>
+    </image:image>
   </url>
 </urlset>
